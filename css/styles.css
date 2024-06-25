@@ -10,7 +10,14 @@
     width: 100%;
 }
 
-
+h1{
+opacity: .9;
+    font-weight: 600;
+    unicode-bidi: isolate;
+        font-size: calc(1.325rem + 0.9vw);
+    
+    
+}
 
 h2 {
  text-align: center;
