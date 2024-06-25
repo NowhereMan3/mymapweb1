@@ -3,8 +3,11 @@
  <head>
  <meta charset="utf-8" />
  <link rel="stylesheet" href="css/styles.css" />
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> 
 
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" /> 
+ <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /> 
   
  <title>My test page</title>
  </head>
@@ -15,11 +18,27 @@
 
  
 <div id="map1"></div>	
-
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> 
+ <script src="js/districtsmap.js"></script>
+ 
 <h3>Tartu city cell towers edu</h3>
 
 
 <div id="map2"></div>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> 
+ <script src="js/celltowerssmap.js"></script>
+
+
+<h3>Tartu city cell towers edu</h3>
+ <div id="map3"></div>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> 
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+ <script src="js/towersclustersmap.js"></script>
+
+
+
+
+ <button onclick="defaultMapSettings()">Default</button>
  
 </body>
 </html>
