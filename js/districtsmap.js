@@ -1,10 +1,10 @@
-let map = L.map('map1').setView([58.373523, 26.716045], 12)
-const osm =
+let map1 = L.map('map1').setView([58.373523, 26.716045], 12)
+const osm1 =
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
  maxZoom: 19,
  attribution: 'OpenStreetMap contributors',
 })
-osm.addTo(map1)
+osm1.addTo(map1)
 
 
 // add popup to each feature
