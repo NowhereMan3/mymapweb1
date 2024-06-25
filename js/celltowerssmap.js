@@ -1,5 +1,5 @@
 
-let map2 = L.map('map').setView([58.373523, 26.716045], 12)
+let map2 = L.map('map2').setView([58.373523, 26.716045], 12)
 const osm2 =
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
  maxZoom: 19,
